@@ -1,7 +1,7 @@
 {
   "name": "@pkg-nec/exceljs",
   "version": "4.4.1",
-  "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
+  "description": "Actively maintained Excel Workbook Manager (fork of exceljs) — read/write xlsx & csv with provenance, TypeScript support, and pivot tables.",
   "private": false,
   "license": "MIT",
   "author": {
@@ -12,6 +12,10 @@
     "type": "git",
     "url": "https://github.com/pkg-nec/exceljs.git"
   },
+  "bugs": {
+    "url": "https://github.com/pkg-nec/exceljs/issues"
+  },
+  "homepage": "https://github.com/pkg-nec/exceljs#readme",
   "engines": {
     "node": ">=8.3.0"
   },
@@ -75,9 +79,12 @@
   },
   "keywords": [
     "xlsx",
+    "xls",
     "json",
     "csv",
     "excel",
+    "exceljs",
+    "exceljs-fork",
     "font",
     "border",
     "fill",
@@ -88,6 +95,7 @@
     "office",
     "spreadsheet",
     "workbook",
+    "worksheet",
     "defined names",
     "data validations",
     "rich text",
@@ -96,7 +104,15 @@
     "views",
     "frozen",
     "split",
-    "pageSetup"
+    "pageSetup",
+    "pivot-table",
+    "pivot table",
+    "maintained",
+    "typescript",
+    "openxml",
+    "ooxml",
+    "supply-chain",
+    "provenance"
   ],
   "dependencies": {
     "archiver": "^5.0.0",
