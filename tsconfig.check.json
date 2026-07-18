@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noEmit": true,
+    "types": [
+      "node"
+    ]
+  },
+  "files": [
+    "index.d.ts"
+  ]
+}
