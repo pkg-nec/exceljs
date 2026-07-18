@@ -1,10 +1,10 @@
-# ExcelJS
+# @pkg-nec/exceljs
 
-[![Build Status](https://github.com/exceljs/exceljs/actions/workflows/tests.yml/badge.svg?branch=master&event=push)](https://github.com/exceljs/exceljs/actions/workflows/tests.yml)
+> **This is a maintained fork of [exceljs](https://github.com/exceljs/exceljs).** The original package has been unmaintained. This fork is published as `@pkg-nec/exceljs` with the same API and functionality.
+
+[![Build Status](https://github.com/pkg-nec/exceljs/actions/workflows/tests.yml/badge.svg?branch=main&event=push)](https://github.com/pkg-nec/exceljs/actions/workflows/tests.yml)
 
 Read, manipulate and write spreadsheet data and styles to XLSX and JSON.
-
-Reverse engineered from Excel spreadsheet files as a project.
 
 # Translations
 
@@ -13,7 +13,7 @@ Reverse engineered from Excel spreadsheet files as a project.
 # Installation
 
 ```shell
-npm install exceljs
+npm install @pkg-nec/exceljs
 ```
 
 # New Features!
@@ -177,7 +177,7 @@ To be clear, all contributions added to this library will be included in the lib
 # Importing[⬆](#contents)<!-- Link generated with jump2header -->
 
 ```javascript
-const ExcelJS = require('exceljs');
+const ExcelJS = require('@pkg-nec/exceljs');
 ```
 
 ## ES5 Imports[⬆](#contents)<!-- Link generated with jump2header -->
@@ -2531,7 +2531,7 @@ A portion of this library has been isolated and tested for use within a browser 
 Due to the streaming nature of the workbook reader and workbook writer, these have not been included.
 Only the document based workbook may be used (see <a href="#create-a-workbook">Create a Workbook</a> for details).
 
-For example code using ExcelJS in the browser take a look at the <a href="https://github.com/exceljs/exceljs/tree/master/spec/browser">spec/browser</a> folder in the github repo.
+For example code using ExcelJS in the browser take a look at the <a href="https://github.com/pkg-nec/exceljs/tree/main/spec/browser">spec/browser</a> folder in the github repo.
 
 ## Prebundled[⬆](#contents)<!-- Link generated with jump2header -->
 
