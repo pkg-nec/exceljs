@@ -57,6 +57,10 @@
     "preversion": "npm run clean && npm run build && npm run test:version",
     "postversion": "git push --no-verify && git push --tags --no-verify"
   },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
