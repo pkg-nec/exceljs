@@ -1,6 +1,6 @@
 {
   "name": "@pkg-nec/exceljs",
-  "version": "4.4.1",
+  "version": "4.4.2",
   "description": "Actively maintained Excel Workbook Manager (fork of exceljs) — read/write xlsx & csv with provenance, TypeScript support, and pivot tables.",
   "private": false,
   "license": "MIT",
