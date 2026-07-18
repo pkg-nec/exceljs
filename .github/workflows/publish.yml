@@ -31,6 +31,9 @@ jobs:
       - name: Install dependencies (honor lockfile)
         run: npm ci
 
+      - name: Build dist artifacts
+        run: npm run build
+
       - name: Sanity-check tag matches package.json version
         run: |
           TAG="${{ github.event.release.tag_name }}"
