@@ -122,7 +122,7 @@
     "readable-stream": "^3.6.0",
     "saxes": "^5.0.1",
     "tmp": "^0.2.0",
-    "unzipper": "^0.10.11",
+    "unzipper": "^0.12.5",
     "uuid": "^8.3.0"
   },
   "devDependencies": {
