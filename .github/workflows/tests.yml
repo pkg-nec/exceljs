@@ -62,7 +62,7 @@ jobs:
           key: v2-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             v2-npm-
-      - run: npm ci
+      - run: npm ci --ignore-scripts
       - run: npm run benchmark
         env:
           CI: true
@@ -86,7 +86,7 @@ jobs:
           key: v2-npm-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             v2-npm-
-      - run: npm ci
+      - run: npm ci --ignore-scripts
       - run: npx tsc -p tsconfig.check.json
         env:
           CI: true
